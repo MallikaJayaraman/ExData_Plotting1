@@ -1,5 +1,8 @@
-#replicate fourth plot
-png(filename="results/plot4.png", width = 480, height = 480)
+## This script replicates the fourth plot in the assignment
+## Data for this plot is downloaded using electric_EDA. 
+## This script may also be called from that file 
+
+png(filename="plot4.png", width = 480, height = 480)
 par(mfrow=c(2,2), mar=c(5,4,4,2)+0.1)
 
 #plot 1

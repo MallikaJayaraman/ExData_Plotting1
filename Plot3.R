@@ -1,7 +1,9 @@
-##This file replicates 
+## This script replicates the third plot in the assignment
+## Data for this plot is downloaded using electric_EDA. 
+## This script may also be called from that file
 
 #replicate third plot
-png(filename="results/plot3.png", width = 480, height = 480)
+png(filename="plot3.png", width = 480, height = 480)
 par(mar=c(3,4,4,2)+0.1)
 plot(data$Sub_metering_1, xaxt="n", type="n", ylab="Energy sub metering")
 axis(1, at=c(0,1440, 2880), labels=c("Thu", "Fri", "Sat"))

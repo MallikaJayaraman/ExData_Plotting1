@@ -1,6 +1,6 @@
 ## Update 8/4/17
 I modified this repo to include files that would replicate the figures contained in the figure folder. The following scripts were added: 
-- electric_EDA.R: downloads the data to the working directory, formats the date and time columns, subsets to the days of interest, and creates a file to store the new plots
+- electric_EDA.R: downloads the data to the working directory, formats the date and time columns, subsets to the days of interest, and calls the Plot codes to recreate the four figures in the assignment
 - Plot1.R: recreates the first figure
 - Plot2.R: recreates the second figure
 - Plot3.R: recreates the third figure
