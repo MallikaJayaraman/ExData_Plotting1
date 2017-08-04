@@ -1,6 +1,12 @@
 ## This script replicates the fourth plot in the assignment
 ## Data for this plot is downloaded using electric_EDA. 
-## This script may also be called from that file 
+## This script may also be called from that file
+
+## uncomment to open data if not opened in electric_EDA
+#data_full <- read.table("data/household_power_consumption.txt", sep=";", na.strings="?", header=TRUE)
+#data_full$Date <- as.Date(data_full$Date, format="%d/%m/%Y")
+#data_full$Time <- strptime(data_full$Time, format="%H:%M:%S")
+#data <- subset(data_full, Date=="2007-02-01"|Date=="2007-02-02")
 
 png(filename="plot4.png", width = 480, height = 480)
 par(mfrow=c(2,2), mar=c(5,4,4,2)+0.1)
