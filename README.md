@@ -1,4 +1,12 @@
-## Introduction
+## Update 8/4/17
+I modified this repo to include files that would replicate the figures contained in the figure folder. The following scripts were added: 
+- electric_EDA.R: downloads the data to the working directory, formats the date and time columns, subsets to the days of interest, and creates a file to store the new plots
+- Plot1.R: recreates the first figure
+- Plot2.R: recreates the second figure
+- Plot3.R: recreates the third figure
+- Plot4.R: recreates the fourth figure
+
+## Introduction (Original Assignment)
 
 This assignment uses data from
 the <a href="http://archive.ics.uci.edu/ml/">UC Irvine Machine
